@@ -98,7 +98,7 @@ mysiteApp.config (['$routeProvider','$locationProvider',
         }
       })*/
       .otherwise({
-        redirectTo: '/ita/me'
+        redirectTo: '/'
       });
       // configure html5 to get links working on jsfiddle
       $locationProvider.html5Mode(true);
